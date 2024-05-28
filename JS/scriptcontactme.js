@@ -2,7 +2,9 @@ const rainContainer = document.querySelector(".rain-container");
 
 // background Colors for the raindrop
 const background = [
-  "linear-gradient(transparent, aqua)",
+  "linear-gradient(transparent, green)",
+  "linear-gradient(transparent, emerald)",
+  "linear-gradient(transparent, olive)"
 ];
 
 const amount = 100; // amount of raindops

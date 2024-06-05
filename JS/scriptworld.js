@@ -2,7 +2,7 @@ const rainContainer = document.querySelector(".rain-container");
 
 // background Colors for the raindrop
 const background = [
-  "linear-gradient(transparent, orange)",
+  "linear-gradient(transparent, green)",
 ];
 
 const amount = 100; // amount of raindops
@@ -17,10 +17,10 @@ while (i < amount) {
   const raindropProperties = {
     width: Math.random() * 5 + "px",
     positionX: Math.floor(Math.random() * window.innerWidth) + "px",
-    delay: Math.random() * -20 + "s",
-    duration: Math.random() * 5 + "s",
+    delay: Math.random() * -10 + "s",
+    duration: Math.random() * 15 + "s",
     bg: background[Math.floor(Math.random() * background.length)],
-    opacity: Math.random() + 0.2
+    opacity: Math.random() + 0
   };
 
   //   Setting Styles for raindrop

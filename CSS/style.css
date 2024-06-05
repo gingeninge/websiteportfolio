@@ -90,7 +90,7 @@
   }
   .containeradd
   {
-   position: relative;
+   position: absolute;
   }
   #cultist1
   {
@@ -107,7 +107,57 @@
   }
   #demon
   {
+    width: 25vw;
+    height: 25vh;
+  }
+  #floor1
+  {
+    width: 35vw;
+    height: 45vh;
+  }
+  #floor2
+  {
+    width: 35vw;
+    height: 45vh;
+  }
+  #floor3
+  {
+    width: 35vw;
+    height: 45vh;
+  }
+  #junky
+  {
+    width: 45vw;
+    height: 45vh;
+  }
+  #psycho
+  {
+    width: 40vw;
+    height:45vh;
+  }
+  #trapper
+  {
+    width: 45vw;
+    height: 45vh;
+  }
+  #win
+  {
     width: 30vw;
     height: 30vh;
   }
+  .con2
+{
+  width: 750px;
+  height: 400px;
+  left: 500px;
+  position: absolute;
+}
+.con3
+{
+  width: 750px;
+  height: 100px;
+  bottom: 500px;
+  left: 550px;
+  position: absolute;
+}
   

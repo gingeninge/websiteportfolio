@@ -31,3 +31,32 @@
     text-wrap: wrap; 
     color: antiquewhite;
   }
+.con
+{
+  width: 1000px;
+  height: 100px;
+  margin-left: 400px;
+}
+ 
+  #carouselExample
+  { 
+     top: 100px;
+     left: 50px;
+     right: 50px;
+     position: relative;
+  }
+  #cat1
+  {
+   width: 25vw;
+   height: 25vh;
+  }
+  #fire
+  {
+    width: 25vw;
+    height: 25vh;
+  }
+  #cat2
+  {
+    width: 25vw;
+    height: 25vh;
+  }

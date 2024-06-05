@@ -7,7 +7,7 @@
     position: relative;
     background: #000;
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     overflow: hidden;
   }
   
@@ -47,16 +47,67 @@
   }
   #cat1
   {
-   width: 25vw;
+   width: 20vw;
    height: 25vh;
+   position: relative;
   }
   #fire
   {
     width: 25vw;
     height: 25vh;
+    position: relative;
   }
   #cat2
   {
-    width: 25vw;
+    width: 20vw;
     height: 25vh;
+    position: relative;
   }
+  #couch
+  {
+    width: 25vw;
+    height: 40vh;
+    position: relative;
+  }
+  #character
+  {
+    width: 25vw;
+    height: 35vh;
+    position: relative;
+  }
+  #trial
+  {
+    width: 25vw;
+    height: 35vh;
+    position: relative;
+  }
+  #background
+  {
+    width: 25vw;
+    height: 35vh;
+    position: relative;
+    
+  }
+  .containeradd
+  {
+   position: relative;
+  }
+  #cultist1
+  {
+    width: 25vw;
+    height: 35vh;
+    position: relative;
+    
+  }
+  #cultist2
+  {
+    width: 25vw;
+    height: 35vh;
+    position: relative;
+  }
+  #demon
+  {
+    width: 30vw;
+    height: 30vh;
+  }
+  

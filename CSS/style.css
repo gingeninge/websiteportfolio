@@ -30,11 +30,13 @@
   {
     text-wrap: wrap; 
     color: antiquewhite;
+    font-family: "Oswald", 'Courier New', Courier, monospace;
   }
 h3
 {
   text-wrap: wrap;
   color: antiquewhite;
+  font-family: "Oswald", 'Courier New', Courier, monospace;
 }
 .con
 {
@@ -160,14 +162,14 @@ height: 30vh;
   }
   .con2
 {
-  width: 950px;
+  width: 750px;
   height: 400px;
   left: 550px;
   
 }
 .con3
 {
-  width: 950px;
+  width: 750px;
   height: 200px;
   bottom: 500px;
 

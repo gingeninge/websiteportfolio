@@ -1,3 +1,5 @@
+//JS (Rain effect Dev) 1 june 2024 https://dev.to/j471n/colorful-rain-with-js-514j
+
 const rainContainer = document.querySelector(".rain-container");
 
 // background Colors for the raindrop

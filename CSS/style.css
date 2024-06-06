@@ -31,20 +31,33 @@
     text-wrap: wrap; 
     color: antiquewhite;
   }
+h3
+{
+  text-wrap: wrap;
+  color: antiquewhite;
+}
 .con
 {
-  width: 1000px;
-  height: 100px;
-  margin-left: 400px;
+  width: 75vw;
+  height: 75vh;
+  margin-left: 13vw;
+}
+.cultimg
+{
+width: 25vw;
+height: 30vh;
+
+}
+#bughunter
+{
+  height: 98vh;
+  width: 25vw;
+}
+#themaze
+{
+  height: 98vh;
 }
  
-  #carouselExample
-  { 
-     top: 100px;
-     left: 50px;
-     right: 50px;
-     position: relative;
-  }
   #cat1
   {
    width: 20vw;
@@ -113,32 +126,32 @@
   #floor1
   {
     width: 35vw;
-    height: 45vh;
+    height: 50vh;
   }
   #floor2
   {
     width: 35vw;
-    height: 45vh;
+    height: 50vh;
   }
   #floor3
   {
     width: 35vw;
-    height: 45vh;
+    height: 50vh;
   }
   #junky
   {
     width: 45vw;
-    height: 45vh;
+    height: 50vh;
   }
   #psycho
   {
     width: 40vw;
-    height:45vh;
+    height:50vh;
   }
   #trapper
   {
     width: 45vw;
-    height: 45vh;
+    height: 50vh;
   }
   #win
   {
@@ -147,17 +160,214 @@
   }
   .con2
 {
-  width: 750px;
+  width: 950px;
   height: 400px;
-  left: 500px;
-  position: absolute;
+  left: 550px;
+  
 }
 .con3
 {
-  width: 750px;
-  height: 100px;
+  width: 950px;
+  height: 200px;
   bottom: 500px;
-  left: 550px;
+
+}
+@keyframes percentanimation
+{
+   from{width: 0%;}
+   to{width: 75%;}  
+}
+@keyframes percentanimation2
+{
+   from{width: 0%;}
+   to{width: 50%;}  
+}
+@keyframes percentanimation3
+{
+   from{width: 0%;}
+   to{width: 65%;}  
+}
+@keyframes percentanimation4
+{
+   from{width: 0%;}
+   to{width: 45%;}  
+}
+
+.progress-bar1
+{
+
+  animation-name: percentanimation;
+  background-color: aqua;
+  width: 75%;
+  height: 1vh;
+  animation-duration: 4s;
+  
+}
+.progress-bar2
+{
+  width: 50%;
+  height: 1vh;
+  background-color: aqua;
+  animation-name: percentanimation2;
+  animation-duration: 4s;
+
+}
+.progress-bar3
+{
+  width: 75%;
+  background-color: aqua;
+  animation-name: percentanimation3;
+  animation-duration: 4s;
+  height: 1vh;
+}
+.progress-bar4
+{
+  width: 75%;
+  background-color: aqua;
+  animation-name: percentanimation3;
+  animation-duration: 4s;
+  height: 1vh;
+}
+.progress1
+{
+  width: 50vw;
+  height: 1vh;
+  background-color: white;
+  left: 30vw;
+  top: 20vh;
   position: absolute;
 }
-  
+
+.progress2
+{
+  width: 50vw;
+  background-color: white;
+  left: 20vw;
+  top: 40vh;
+  height: 1vh;
+  position: absolute;
+}
+.progress3
+{
+  width: 50vw;
+  background-color: white;
+  left: 30vw;
+  top: 60vh;
+ height: 1vh;
+
+  position: absolute;
+}
+.progress4
+{
+  height: 1vh;
+  width: 50vw;
+  background-color: white;
+  left: 20vw;
+  top: 80vh;
+  position: absolute;
+}
+@keyframes txt1move
+{
+  from{right: 0px;}
+  to{ right: 200px;}
+}
+@keyframes txt2move
+{
+  from{right: 0px;}
+  to{ right: 300px;}
+}
+@keyframes txt3move
+{
+  from{right: 0px;}
+  to{ right: 200px;}
+}
+@keyframes txt4move
+{
+  from{right: 0px;}
+  to{ right: 300px;}
+}
+.txt1
+{
+  animation-name: txt1move;
+  animation-duration: 4s;
+  position: absolute;
+  right: 200px;
+  top: 150px;
+}
+.txt2
+{
+  animation-name: txt2move;
+  animation-duration: 4s;
+  position: absolute;
+  right: 300px;
+  top: 340px;
+}
+.txt3
+{
+  animation-name: txt3move;
+  animation-duration: 4s;
+  position: absolute;
+  right: 200px;
+  top: 530px;
+
+}
+.txt4
+{
+  animation-name: txt4move;
+  animation-duration: 4s;
+  position: absolute;
+  right: 300px;
+  top: 720px;
+}  
+@keyframes skill1move
+{
+  from{left: 0px;}
+  to{ left: 300px;}
+}
+@keyframes skill2move
+{
+  from{left: 0px;}
+  to{left: 200px;}
+}
+@keyframes skill3move
+{
+  from{left: 0px;}
+  to{left: 300px;}
+}
+@keyframes skill4move
+{
+  from{left: 0px;}
+  to{left: 200px;}
+}
+.skill1
+{
+  animation-name: skill1move;
+  animation-duration: 4s;
+  position: absolute;
+  left: 300px;
+  top: 150px;
+}
+.skill2
+{
+  animation-name: skill2move;
+  animation-duration: 4s;
+  position: absolute;
+  left: 200px;
+  top: 340px;
+}
+.skill3
+{
+  animation-name: skill3move;
+  animation-duration: 4s;
+  position: absolute;
+  left: 300px;
+  top: 530px;
+}
+.skill4
+{
+  animation-name: skill4move;
+  animation-duration: 4s;
+  position: absolute;
+  left: 200px;
+  top: 720px;
+}
